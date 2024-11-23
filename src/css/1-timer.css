@@ -1,6 +1,6 @@
 body {
     background-color: F5F5F5;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .date-time {
@@ -37,13 +37,14 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    cursor: pointer;
 }
 
 .btn:hover {
     background-color: #6c8cff;
 }
 
-.disabled {
+.btn:disabled {
     opacity: 0.5;
     pointer-events: none;
     background-color: #cfcfcf;
@@ -69,7 +70,6 @@ body {
     justify-content: flex-start;
     flex-direction: column;
     gap: 0px;
-
 }
 
 .value {
